@@ -1,0 +1,10 @@
+@media all and (max-width:1004px) {
+    .head h2 {
+        font-size: 30px;
+    }
+    .services-box .box {
+        width: 40%;
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+}

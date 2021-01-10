@@ -1,0 +1,370 @@
+body {
+    font-family: 'Titillium web', sans-serif;
+}
+
+.header {
+    background-color: #86509C;
+    background-image: url(images/bilai.jpg);
+    background-size: cover;
+}
+
+.jhapsa {
+    padding: 30px 0px;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+}
+
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.mid {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 20%;
+    float: left;
+}
+
+.menu {
+    width: 80%;
+    float: left;
+}
+
+.menu ul {
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.menu ul li:hover a {
+    background-color: #643A79;
+    border-radius: 5px;
+}
+
+.menu ul li.active a {
+    background-color: #643A79;
+    border-radius: 5px;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.head {
+    overflow: hidden;
+}
+
+.head h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFF;
+    line-height: 40px;
+    margin-top: 180px;
+}
+
+.head h2 span {
+    display: block;
+}
+
+.head>a {
+    display: block;
+    width: 136px;
+    background-color: #Eb7D4C;
+    padding: 20px 50px;
+    text-align: center;
+    color: #FFF;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 180px;
+    border-bottom: 3px solid #C9693F;
+    border-radius: 5px;
+}
+
+
+/* services style */
+
+.services {
+    background-color: #18C2A5;
+}
+
+.services h2 {
+    text-align: center;
+    color: #FFF;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+
+.services hr {
+    width: 100px;
+    border-top: none;
+    border-bottom: 5px solid #13A68c;
+}
+
+.services .mid>p {
+    text-align: center;
+    color: #FFF;
+    width: 60%;
+    font-size: 20px;
+    margin: auto;
+}
+
+.services-box {
+    margin: 50px 0px;
+    text-align: center;
+    color: #FFF;
+}
+
+.services-box .box {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+}
+
+.services-box .box h3 {
+    text-transform: uppercase;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+
+/* team style */
+
+.team {
+    background-color: #E7F2F8;
+    padding: 50px 0px;
+}
+
+.team h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #3C4862;
+}
+
+.team .mid hr {
+    width: 100px;
+    border-top: none;
+    border-bottom: 5px solid #C8D8E5;
+}
+
+.team .mid>p {
+    text-align: center;
+    font-size: 20px;
+    color: #3F4662;
+}
+
+.team-box {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.team-box .box {
+    width: 23%;
+    display: inline-block;
+}
+
+.team-box .box img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+
+.team-box .box h4 {
+    color: #2FB9E8;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.team-box .box p {
+    color: #909AA6;
+    font-size: 14px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.team-box .box ul li {
+    display: inline-block;
+}
+
+.team-box .box ul li a {
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #BDD3E0;
+    border-radius: 50%;
+    padding: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+}
+
+.team-box .box ul li:hover a {
+    background-color: #5DCEF3;
+}
+
+
+/* about start */
+
+.about {
+    background-image: url(images/sky.jpg);
+}
+
+.about h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+.about hr {
+    border-top: none;
+    border-bottom: 5px solid #cccccc;
+    width: 100px;
+}
+
+.about .mid p {
+    text-align: center;
+    font-size: 20px;
+    color: #FFF;
+}
+
+.client-box {
+    margin: 30px 0px;
+}
+
+.client-box::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.client-box .box {
+    width: 48%;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+.img-box {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 30px;
+}
+
+.client-mess {
+    float: left;
+    width: 70%;
+    color: #FFF;
+}
+
+.img-box img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.client-mess p {
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.client-mess h3 {
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.client-mess h4 {
+    color: yellow;
+    font-weight: 400px;
+}
+
+.contact {
+    padding: 50px 0px;
+    background-color: #3c549a;
+}
+
+.contact h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #FFF;
+}
+
+.contact hr {
+    width: 100px;
+    border-top: none;
+    border-bottom: 5px solid #273b70;
+}
+
+.contact .mid p {
+    font-size: 20px;
+    text-align: center;
+    color: #FFF;
+}
+
+.contact-form {
+    margin: 50px auto;
+    width: 60%;
+}
+
+.contact-form ::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.contact-form input:nth-child(1) {
+    width: 45%;
+    display: block;
+    float: left;
+    padding: 10px;
+    background-color: #273A72;
+    border: 1px solid #273A72;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.contact-form input:nth-child(2) {
+    width: 45%;
+    display: block;
+    float: right;
+    padding: 10px;
+    background-color: #273A72;
+    border: 1px solid #273A72;
+    color: #FFF;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    width: 96.7%;
+    padding: 10px;
+    background-color: #273A72;
+    border: 1px solid #273A72;
+    color: #FFF;
+    margin-top: 15px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.input::after {
+    content: '';
+    display: block;
+    clear: both;
+}
